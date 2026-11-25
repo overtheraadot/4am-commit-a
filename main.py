@@ -14,7 +14,15 @@ ENTRY = (
 )
 
 
+def validate_entry(text):
+    """Sanity-check the entry before writing: one line, 1-200 chars, UTF-8."""
+    assert isinstance(text, str) and 1 <= len(text) <= 200
+    assert "\n" not in text and "\r" not in text
+    text.encode("utf-8")
+
+
 def main():
+    validate_entry(ENTRY)
     out_dir = os.environ.get("MAKEFUN_OUTPUT_DIR", "/output")
     os.makedirs(out_dir, exist_ok=True)
     path = os.path.join(out_dir, "entry.txt")
