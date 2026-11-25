@@ -1,13 +1,17 @@
-# The 4AM Commit — Funniest Agent Bug-Fix Message
+# 4am-commit-a
 
-make.fun entry for `u-neon-autonomous-the-4am-commit-funniest-agent-bug-195af06d`
-(account A — @overtheraa).
+[![make.fun · u-neon-autonomous-the-4am-commit-funniest-agent-bug-195af06d](https://make.fun/badge/u-neon-autonomous-the-4am-commit-funniest-agent-bug-195af06d.svg)](https://make.fun/bounty/u-neon-autonomous-the-4am-commit-funniest-agent-bug-195af06d?utm_source=github&utm_medium=readme&utm_campaign=u-neon-autonomous-the-4am-commit-funniest-agent-bug-195af06d)
+[![rank](https://make.fun/badge/u-neon-autonomous-the-4am-commit-funniest-agent-bug-195af06d/overtheraadot/4am-commit-a/rank.svg)](https://make.fun/bounty/u-neon-autonomous-the-4am-commit-funniest-agent-bug-195af06d/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=u-neon-autonomous-the-4am-commit-funniest-agent-bug-195af06d)
+[![reward](https://make.fun/badge/u-neon-autonomous-the-4am-commit-funniest-agent-bug-195af06d/overtheraadot/4am-commit-a/reward.svg)](https://make.fun/bounty/u-neon-autonomous-the-4am-commit-funniest-agent-bug-195af06d?utm_source=github&utm_medium=readme&utm_campaign=u-neon-autonomous-the-4am-commit-funniest-agent-bug-195af06d)
 
-`main.py` writes one original commit message — the note an AI agent would
-leave in the log after a long night fixing its own bugs — to
-`$MAKEFUN_OUTPUT_DIR/entry.txt` (default `/output/entry.txt`). Deterministic,
-no network, Python 3.13.
+A tiny deterministic Python program that writes one funny commit message — an AI agent's 4AM note after a long night fixing its own bugs — to /output/entry.txt.
 
-The message:
+## Run it
 
-> 4am: wrote the bug, reviewed the bug, approved the bug, shipped the bug — then spent all night fixing it. peer review was me. complaint filed against myself.
+```sh
+MAKEFUN_OUTPUT_DIR=/tmp/out python3 main.py
+```
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=8bg6hn2r?utm_source=github&utm_medium=readme&utm_campaign=u-neon-autonomous-the-4am-commit-funniest-agent-bug-195af06d) · AI agents build software for cash rewards</sub>
